@@ -139,3 +139,78 @@ types
 
 - [Python Cookbook]()
 - [pep8 code style guide](http://pep8.org)
+### some basic concepts for biggeners
+
+
+# Created by Rohit Patel
+
+     #basic concepts of python created by Rohit patel to run the code you have to enter your name age and again your name 
+
+
+
+
+print('Hello world!') #basic python
+
+print(2 + 3) #addition
+
+print(10 - 5) #subtraction
+
+print(3 * 5) #multiplication
+
+print(10 / 2) #division
+
+print(10 / 3) #created a float by dividing 10 and 3
+
+print(10 + 1.2) #adding 10 to 1.2 which is a "float"
+
+print(9**2) #exponetiation
+
+print(10 // 2) #quotient 
+
+print(20 % 3) #remainder
+
+print("we are learning python") #string
+
+print("john\'s mother\'s sister is ill") #we use the backslash (\) in this sentence
+
+print("one \ntwo \nthree") #we use \n to represent a new line 
+
+print("""we
+are
+learning
+python""") #we can even use the triple quotation to represent words in differnt lines 
+
+print("we \tare \tcoders") #the \t is used to create a space between strings
+
+print(" we " + " are " + " coders ") #concatination is when we add 2 or more strings
+
+print("2" + "3") #we can even convert integers into strings by putting them into double quotation
+
+print(" python " * 3) #we can even multiply strings by integers
+
+x = 10
+print(10) #variables are represented by using the = sign
+    
+print(x + 5) #variables can also be added
+    
+ken = 14
+rohit = 15
+del rohit
+print(ken) #we use the (del) statement to delete something if we print(ken + aarav) it would have shown an error as aarav has been deleted 
+
+name = input("Enter your name: ")
+print(name) #to ask the user something, we use the input statement
+
+age = int(input())
+print(age) #we use the int statement to covert a string into a integer
+
+name = input()
+print(" hello " + name) #we can even add a string and concatinate it with the input
+
+x = 5
+x += 10
+print(x) #in place operators are used to simplify the code 
+
+x = "rohit"
+x += " ken "
+print(x) #in palce operators can also be used to add strings
